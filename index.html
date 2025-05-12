@@ -10,19 +10,71 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { 
+    font-size: 11px; text-align: center; 
+    position: absolute;
+    bottom: 10px;
+
+
+    }
+
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    body { 
+    background-color: hsl(212, 45%, 89%); 
+    display: grid;
+    place-items: center; /* Центрируем по горизонтали и вертикали */
+    height: 100vh; /* Высота вьюпорта */
+    margin: 0; /* Убираем отступы по умолчанию */
+
+    }
+
+    h2 { 
+    color: hsl(218, 44%, 22%);
+    margin-left: 5px;
+    margin-right: 5px;}
+
+    p { 
+    color: hsl(216, 15%, 48%);
+    margin-left: 15px;
+    margin-right: 15px;}
+
+    img {
+    width: 275px;
+    height: auto;
+    border-radius: 10px;}
+
+    #qr { 
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 20px;
+    width: 275px;
+    height: 450px;
+    text-align: center;
+    margin: 10px;
+    position: absolute;
+    top: 150px;
+  
+  
+    }
+    
+    
   </style>
+
 </head>
 <body>
+  <div id="qr">
+    <img src="images/image-qr-code.png" alt="тут QR код">
 
-  Improve your front-end skills by building projects
+    <h2>Improve your front-end skills by building projects</h2>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">XLEBOVOZ</a>.
   </div>
 </body>
 </html>
